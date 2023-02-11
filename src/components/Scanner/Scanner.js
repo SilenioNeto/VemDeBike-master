@@ -29,7 +29,7 @@ export default function Scanner(){
     setType(current => (current === CameraType.back ? CameraType.front : CameraType.back));
   }
   function limpar (){
-   alert('@silenioneto')
+   alert('github.com/silenioneto')
   }
   const handleBarCodeScanned = ({type, data}) =>{
     alert(`${type}, ${data}, ${scanned} `);
